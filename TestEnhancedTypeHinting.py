@@ -109,7 +109,3 @@ class TestEnhancedTypeHinting(unittest.TestCase):
                 "tuple[int, int, list[int]]]]"
             )
         )
-
-
-if __name__ == '__main__':
-    unittest.TextTestRunner().run(unittest.TestLoader().loadTestsFromTestCase(TestEnhancedTypeHinting))
